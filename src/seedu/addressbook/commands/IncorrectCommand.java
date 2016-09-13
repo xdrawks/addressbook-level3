@@ -17,4 +17,10 @@ public class IncorrectCommand extends Command{
         return new CommandResult(feedbackToUser);
     }
 
+    @Override
+    public boolean isMutating() {
+        // Incorrect is mot mutable.
+        return false;
+    }
+
 }
