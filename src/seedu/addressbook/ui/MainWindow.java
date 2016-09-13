@@ -65,6 +65,14 @@ public class MainWindow {
         }
     }
 
+    /**
+     * Clears command window when clear button is pressed.
+     */
+    @FXML
+    void onClearPressed() {
+        clearCommandInput();
+    }
+
     private void exitApp() throws Exception {
         mainApp.stop();
     }
