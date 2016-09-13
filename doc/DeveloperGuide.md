@@ -74,24 +74,6 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
-  
-#### Use case: Rename tag
-
-**MSS**
-1. User requests to rename tags.
-2. AddressBook asks user to confirm the change.
-3. User confirms the tag rename.
-4. AddressBook renames the tag to the user specified tag.
-Use case ends.
-
-**Extensions**
-2a. The tag is not found.
-> AddressBook tells user that tag does not exist.
-> Use case ends.
-
-2b. Use denies the tag rename confirmation.
-> Use case ends.
-
 
 ## Appendix C : Non Functional Requirements
 
