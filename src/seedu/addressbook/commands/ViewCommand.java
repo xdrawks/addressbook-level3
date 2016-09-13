@@ -38,4 +38,11 @@ public class ViewCommand extends Command {
         }
     }
 
+
+    @Override
+    public boolean isMutating() {
+        // View is not mutable
+        return false;
+    }
+
 }
