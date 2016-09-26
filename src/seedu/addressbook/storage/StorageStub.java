@@ -10,8 +10,7 @@ public class StorageStub implements Storage {
 
     @Override
     public void save(AddressBook addressBook) throws StorageOperationException {
-        // TODO Auto-generated method stub
-
+        //Does nothing
     }
 
     @Override
