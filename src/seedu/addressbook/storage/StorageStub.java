@@ -7,6 +7,9 @@ import seedu.addressbook.storage.StorageFile.StorageOperationException;
  * Represents a dummy file used for LogicTest.
  */
 public class StorageStub implements Storage {
+    
+    //Keep a shadow copy of the address book.
+    private AddressBook addressBook;
 
     @Override
     public void save(AddressBook addressBook) throws StorageOperationException {
