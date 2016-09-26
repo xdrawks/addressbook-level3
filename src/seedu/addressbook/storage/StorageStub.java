@@ -25,8 +25,7 @@ public class StorageStub implements Storage {
 
     @Override
     public AddressBook load() throws StorageOperationException {
-        // TODO Auto-generated method stub
-        return null;
+        return this.addressBook;
     }
 
     @Override
